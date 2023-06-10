@@ -9,7 +9,7 @@ function App() {
 
 useEffect(()=>{
 
-axios.get("https://localhost:7006/WeatherForecast")
+axios.get("http://red666.somee.com/WeatherForecast")
 .then(function (response){
 
   console.log(response.data)
